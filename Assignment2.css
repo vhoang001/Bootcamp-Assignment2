@@ -1,0 +1,52 @@
+/* Checkpoint 2B */
+
+/* Using class selector ".menu-tile" to center the menu section title with width=800px*/
+div{
+    width: 800px;
+    margin: 0 auto; 
+    text-align: center;
+  }
+
+/* Set Arial font and margin:10px for all headers */
+h1, h2, h3, h4{
+    font-family: Arial;
+    margin: 20px;
+}
+
+/* Set font size and color for header */
+h1{
+    font-size: 60px;
+    color: pink;
+}
+
+/* Set font size and color for header */
+h2 {
+    font-size: 50px;
+    color: orange;
+}
+
+/* Set font size and color for header */
+h3 {
+    font-size: 40px;
+    color: red;
+}
+
+/* Set font size and color for header */
+h4 {
+    font-size: 30px;
+    color: green;
+}
+
+/*  - Use a class selector to style the text 
+    inside the paragraph elements that describes each of the menu items
+    - Use line-height to adjust the space between the lines of text
+    - Apply margin and padding to create enough spacing between the paragraphs element and the headings
+*/
+.menu-description {
+    font-size: 20px; 
+    line-height: 20px; 
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+    padding: 0 auto; 
+}
+    
